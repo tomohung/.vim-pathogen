@@ -16,5 +16,4 @@ set ruler
 set ru
 set fileformat=unix
 
-set ai
 set cursorline
