@@ -17,3 +17,4 @@ set ru
 set fileformat=unix
 
 set cursorline
+set autoread
