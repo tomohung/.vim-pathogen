@@ -3,8 +3,6 @@ map <C-n> :NERDTreeToggle<CR>
 colorscheme railscasts
 set number
 
-syntax on
-set nocompatible
 set encoding=utf-8
 set fileencodings=utf-8
 
@@ -16,5 +14,12 @@ set ruler
 set ru
 set fileformat=unix
 
-set ai
 set cursorline
+set autoread
+
+" for vim-ruby
+set nocompatible      " We're running Vim, not Vi!
+syntax on             " Enable syntax highlighting
+filetype on           " Enable filetype detection
+filetype indent on    " Enable filetype-specific indenting
+filetype plugin on    " Enable filetype-specific plugins
