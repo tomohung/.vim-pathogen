@@ -5,3 +5,5 @@
 - ln -s ~/.vim/tmux.conf ~/.tmux.conf
 
 That's all
+
+ref: http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
