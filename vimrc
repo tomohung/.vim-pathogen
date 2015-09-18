@@ -1,7 +1,12 @@
 execute pathogen#infect()
 map <C-n> :NERDTreeToggle<CR>
-colorscheme railscasts
+
+set background=dark
+colorscheme solarized
+let g:solarized_termcolors=256
+"colorscheme railscasts
 set number
+set hlsearch
 
 set encoding=utf-8
 set fileencodings=utf-8
