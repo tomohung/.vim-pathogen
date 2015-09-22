@@ -1,6 +1,8 @@
 execute pathogen#infect()
 map <C-n> :NERDTreeToggle<CR>
 
+nmap <F8> :TagbarToggle<CR>
+
 set background=dark
 colorscheme solarized
 let g:solarized_termcolors=256
