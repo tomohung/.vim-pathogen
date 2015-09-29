@@ -17,12 +17,15 @@ set shiftwidth=2
 set tabstop=2
 set expandtab
 
-set ruler
-set ru
+"set ruler
+"set ru
 set fileformat=unix
 
 set cursorline
 set autoread
+
+"for air-line
+set laststatus=2
 
 " for vim-ruby
 set nocompatible      " We're running Vim, not Vi!
