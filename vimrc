@@ -1,6 +1,7 @@
 execute pathogen#infect()
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
+let g:ctrlp_show_hidden = 1
 
 nmap <F8> :TagbarToggle<CR>
 
